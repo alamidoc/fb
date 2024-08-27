@@ -1,0 +1,719 @@
+/****************************************************************
+
+*************************** Default CSS *************************
+ 
+****************************************************************/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/****************************************************************
+
+************************* Animation CSS *************************
+ 
+****************************************************************/
+
+@keyframes circle-moving {
+	25% { left: 23%; }
+
+	50% { left: 25%; }
+
+	75% { left: 27%; }
+
+	100% { left: 25%; }
+}
+
+@keyframes dot-moving {
+	25% { left: 14%; }
+
+	50% { left: 12%; }
+
+	75% { left: 14%; }
+
+	100% { left: 12%; }
+}
+
+@keyframes cross-moving {
+	25% { bottom: 18%; }
+
+	50% { bottom: 20%; }
+
+	75% { bottom: 18%; }
+
+	100% { bottom: 20%; }
+}
+
+/****************************************************************
+
+******************** Header Section CSS *************************
+ 
+****************************************************************/
+
+#site_header {
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+} 
+
+.header_wrapper {
+	padding: 40px 60px 0 60px;
+}
+
+.theme_svg {
+	margin-right: 40px;
+}
+
+.svg_link {
+	display: inline-block;
+}
+
+/***************************************************************
+
+******************** About Section CSS *************************
+ 
+****************************************************************/
+
+.about_bg_image {
+	background-image: url(../images/back-image.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.about_overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(18, 21, 28, 0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.about_content {
+	height: 100vh;
+}
+
+.about_box {
+	max-width: 1170px;
+}
+
+.about_title h2 {
+	display: inline-block;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 20px;
+	letter-spacing: 0.2em;
+	color: #F9B248;
+	text-transform: uppercase;
+}
+
+.about_heading h1 {
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 120px;
+	color: #FFFFFF;
+	margin-top: 20px;
+}
+
+.about_para p {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #FFFFFF;
+	margin-top: 40px;
+}
+
+.layout_button span {
+	display: inline-block;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 20px;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	margin-top: 60px;
+	padding: 15px 30px;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	transition: all .3s ease;
+}
+
+.layout_button span:hover {
+	color: #000000;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+
+/****************************************************************
+
+******************** Different Shapes CSS **********************
+ 
+****************************************************************/
+
+.circle_shape,
+.dot-shape,
+.cross-shape {
+	position: absolute;
+}
+
+.circle_shape {
+	top: 20%;
+	left: 25%;
+	animation: circle-moving 15s infinite linear;
+}
+
+.dot-shape {
+	bottom: 15%;
+	left: 12%;
+	animation: dot-moving 13s infinite linear;
+}
+
+.cross-shape {
+	bottom: 20%;
+	right: 18%;
+	animation: cross-moving 12s infinite linear;
+}
+
+/****************************************************************
+
+******************** Call Button Layout CSS **********************
+ 
+****************************************************************/
+
+.call_button {
+	position: fixed;
+	bottom: 60px;
+	right: 60px;
+}
+
+
+.call_button .call_button_svg,
+.call_button .call_button_close_svg {
+	width: 60px;
+	height: 60px;
+	background-color: rgb(252, 58, 82);
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.agent_right_block {
+	position: fixed;
+	bottom: 140px;
+	right: 60px;
+}
+
+.agent_image_content {
+	max-width: 60px;
+	border-radius: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.agent_detail_wrapper {
+	max-width: 330px;
+	position: fixed;
+	bottom: 140px;
+	right: 140px;
+}
+
+.agent_detail_box {
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	padding: 30px;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+
+.agent_image {
+	max-width: 60px;
+	border-radius: 20px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.agent_name {
+	margin-bottom: 10px;
+}
+
+.agent_name h2 {
+	display: inline-block;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 0;
+	text-transform: capitalize;
+	color: #fc3a52;
+}
+
+.agent_position {
+	margin-bottom: 20px;
+}
+
+.agent_position h3 {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	margin: 0px;
+	text-transform: capitalize;
+	color: #000000;
+}
+
+.agent_description p {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	color: #000000;
+}
+
+.agent_detail_call_button {
+	display: inline-block;
+	border-radius: 5px;
+	margin-top: 0px;
+	padding: 5px 10px;
+	background: rgba(252, 58, 82, 0.098);
+}
+
+.agent_detail_call_icon {
+	float: left;
+	margin-right: 10px;
+}
+
+.agent_detail_contact_number {
+	float: left;
+}
+
+.agent_detail_contact_number a {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 28px;
+	color: #fc3a52;
+}
+
+.agent_right_block,
+.call_button_svg.call_button_svg_hide,
+.agent_image_wrapper, 
+.agent_detail_wrapper, 
+.call_button_cross_svg {
+	display: none;
+}
+
+.agent_first_detail_wrapper.show_first_agent_detail_wrapper,
+.agent_second_detail_wrapper.show_second_agent_detail_wrapper,
+.agent_image_wrapper,
+.agent_right_block.show_agent_block,
+.call_button_cross_svg.cross_svg_show {
+	display: block;
+}
+
+/****************************************************************
+
+************ Call Button & Agent Setting Sidebar CSS ************
+ 
+****************************************************************/
+
+.sidebar {
+	width: 650px;
+	height: 100vh;
+	background-color: #ffffff;
+	padding: 20px 40px;
+	position: absolute;
+	top: 0;
+	left: -650px;
+	z-index: 999;
+	overflow-y: auto;
+	transition: all .5s linear;
+}
+
+.sidebar.show_sidebar {
+	left: 0;
+}
+
+.sidebar_close_icon {
+	text-align: right;
+	position: relative;
+	top: 0px;
+	right: 0px;
+}
+
+.sidebar_close_svg {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.sidebar_close_svg svg {
+	transition: all .3s ease;
+}
+
+.sidebar_close_svg svg:hover {
+	transform: scale(1.1);
+}
+
+.sidebar_logo {
+	margin-top: 20px;
+}
+
+.sidebar_heading h3 {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 42px;
+	color: #000000;
+	margin-top: 20px;
+}
+
+#agent_call_button_setting_form {
+	margin-top: 40px;
+}
+
+.form_label {
+	background-color: #6F39FD;
+	color: #ffffff;
+	border-radius: 30px;
+	font-size: 16px;
+	text-transform: capitalize;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.form_field_title p,
+.form_dropdown_label label {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 24px;
+	color: #000000;
+	text-transform: capitalize;
+	display: inline-block;
+}
+
+.form_radio_field {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.form_field {
+	margin-top: 40px;
+}
+
+.form_field:first-child {
+	margin-top: 0;
+}
+
+.form_radio_field input {
+
+}
+
+.form_radio_field input {
+	width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.right_space {
+	margin-right: 50px;
+}
+
+.form_input {
+	display: flex;
+	align-items: center;
+}
+
+.form_dropdown_field {
+	display: flex;
+	align-items: center;
+}
+
+.form_dropdown_label label {
+	width: 260px;
+}
+
+.form_dropdown_menu select {
+	width: 250px;
+    text-align: center;
+    height: 50px;
+    background: #6F39FD;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form_dropdown_menu select option {
+	position: absolute;
+}
+
+.form_bottom_fields {
+	margin-top: 50px;
+}
+
+.custom-select {
+    background-image: url(../svg/down-arrow.svg) !important;
+    background-position: 95% center !important;
+    background-size: 20px 20px !important;
+    background-repeat: no-repeat !important;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.agent_detail_contact_number .fc_contact_url {
+	display: none;
+}
+
+.agent_detail_contact_number.show_url .fc_contact_number{
+	display: none;
+}
+
+.agent_detail_contact_number.show_url .fc_contact_url {
+	display: block;
+}
+
+/****************************************************************
+
+******************** Call Button Type CSS ***********************
+ 
+****************************************************************/
+
+.call_button .call_button_svg.svg_icon_stroke, 
+.call_button .call_button_close_svg.svg_icon_stroke {
+	background-color: transparent;
+	border: 2px solid #FC3A52;
+}
+
+/****************************************************************
+
+****************** Call Button Icon Change CSS ******************
+ 
+****************************************************************/
+
+.icon_one_svg,
+.icon_two_svg,
+.icon_three_svg,
+.icon_four_svg,
+.icon_five_svg,
+.icon_six_svg,
+.icon_seven_svg,
+.icon_eight_svg,
+.icon_nine_svg,
+.icon_ten_svg {
+	display: none;
+}
+
+.call_button_svg.icon-1 .icon_one_svg,
+.call_button_svg.icon-2 .icon_two_svg,
+.call_button_svg.icon-3 .icon_three_svg,
+.call_button_svg.icon-4 .icon_four_svg,
+.call_button_svg.icon-5 .icon_five_svg,
+.call_button_svg.icon-6 .icon_six_svg,
+.call_button_svg.icon-7 .icon_seven_svg,
+.call_button_svg.icon-8 .icon_eight_svg,
+.call_button_svg.icon-9 .icon_nine_svg,
+.call_button_svg.icon-10 .icon_ten_svg {
+	display: block;
+}
+
+/****************************************************************
+
+****************** Call Button Shape Change CSS ******************
+ 
+****************************************************************/
+
+.call_button .call_button_svg.shape-2, 
+.call_button .call_button_close_svg.shape-2,
+.agent_image_content.shape-2 {
+	border-radius: 10px;
+}
+
+.call_button .call_button_svg.shape-3, 
+.call_button .call_button_close_svg.shape-3,
+.agent_image_content.shape-3 {
+	border-radius: 30px;
+}
+
+.call_button .call_button_svg.shape-4, 
+.call_button .call_button_close_svg.shape-4,
+.agent_image_content.shape-4 {
+	border-radius: 0;
+}
+
+.call_button .call_button_svg.shape-5, 
+.call_button .call_button_close_svg.shape-5,
+.agent_image_content.shape-5 {
+	border-radius: 30px 30px 30px 0px;
+}
+
+.call_button .call_button_svg.shape-6, 
+.call_button .call_button_close_svg.shape-6,
+.agent_image_content.shape-6 {
+	border-radius: 30px 0px;
+}
+
+.call_button .call_button_svg.shape-7, 
+.call_button .call_button_close_svg.shape-7,
+.agent_image_content.shape-7 {
+	border-radius: 20px 5px;
+}
+
+/****************************************************************
+
+****************** Call Button Display Text CSS ******************
+ 
+****************************************************************/
+
+.call_button_desc h2 {
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+	text-transform: capitalize;
+} 
+
+.call_button_svg.call_button_text_hide .call_button_desc, .call_button_svg.call_button_icon_hide .fc_svg_wrapper {
+	display: none;
+}
+.call_button_svg.call_button_text_show .call_button_desc, .call_button_svg.call_button_icon_show .fc_svg_wrapper {
+	display: block;
+}
+
+.call_button_svg.call_button_text_show {
+	width: auto;
+	height: auto;
+	padding: 18px;
+}
+
+.call_button_svg.call_button_text_show .fc_svg_wrapper {
+	margin-right: 8px;
+}
+
+/****************************************************************
+
+******************* Agent Layouts Change CSS ********************
+ 
+****************************************************************/
+
+.agent_detail_box {
+	position: relative;
+}
+
+.agent_detail_box.agent-layout-2::after,
+.agent_detail_box.agent-layout-3::after {
+	content: "";
+	width: 100%;
+	height: 60px;
+	background-color: #fc3a5219;
+	border-radius: 10px 10px 0px 0px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.agent_detail_box.agent-layout-3::after {
+	background-color: #FFFFFF;
+}
+
+.agent_detail_box.agent-layout-3, 
+.agent_detail_box.agent-layout-4 {
+	background-color: #fc3a52;
+}
+
+.agent_detail_box.agent-layout-3 .agent_name h2,
+.agent_detail_box.agent-layout-3 .agent_position h3,
+.agent_detail_box.agent-layout-3 .agent_description p,
+.agent_detail_box.agent-layout-3 .agent_detail_contact_number a,
+.agent_detail_box.agent-layout-4 .agent_name h2,
+.agent_detail_box.agent-layout-4 .agent_position h3,
+.agent_detail_box.agent-layout-4 .agent_description p,
+.agent_detail_box.agent-layout-4 .agent_detail_contact_number a,
+.agent_detail_box.agent-layout-5 .agent_name h2,
+.agent_detail_box.agent-layout-5 .agent_position h3,
+.agent_detail_box.agent-layout-6 .agent_name h2,
+.agent_detail_box.agent-layout-6 .agent_position h3 {
+	color: #ffffff;
+}
+
+.agent_detail_box.agent-layout-3 .agent_detail_call_button,
+.agent_detail_box.agent-layout-4 .agent_detail_call_button {
+	background: rgba(255,255, 255, 0.1);
+}
+
+.agent_detail_box.agent-layout-3 .agent_detail_call_icon svg path,
+.agent_detail_box.agent-layout-4 .agent_detail_call_icon svg path {
+	fill: #ffffff;
+}
+
+.agent_detail_box.agent-layout-4:after {
+	content: "";
+	width: 100%;
+	height: 2px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 175px;
+	left: 0;
+}
+
+.agent_detail_box.agent-layout-5:after,
+.agent_detail_box.agent-layout-6:after {
+	content: "";
+	width: 100%;
+	height: 175px;
+	background-color: #fc3a52;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	z-index: -1;
+	border-radius: 10px 10px 0 0;
+}
+
+.agent_detail_box.agent-layout-6:after {
+	border-radius: 160px 160px 0px 0px;
+}
+
+.agent_detail_box.agent-layout-6 {
+	border-radius: 160px 160px 10px 10px;
+}
+
+.agent_detail_box.agent-layout-7 .agent_about {
+	display: none;
+}
+
+/****************************************************************
+
+************************ End of All The CSS *********************
+ 
+****************************************************************/

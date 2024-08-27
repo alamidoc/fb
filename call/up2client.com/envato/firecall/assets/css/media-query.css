@@ -1,0 +1,485 @@
+@media (max-width: 1500px) {
+	.sidebar_heading h3 {
+		font-size: 28px;
+		line-height: 38px;
+	}
+	.form_field {
+		margin-top: 35px;
+	}
+	.sidebar_logo {
+		margin-top: 10px;
+	}
+	#agent_call_button_setting_form {
+		margin-top: 30px;
+	}
+	.form_field_title p, .form_dropdown_label label {
+		font-size: 22px;
+		line-height: 22px;
+	}
+	.about_heading h1 {
+		font-size: 96px;
+		line-height: 112px;
+	}
+	.about_para p {
+		margin-top: 30px;
+	}
+	.layout_button span {
+		margin-top: 50px;
+	}
+}
+
+@media(max-width: 1400px) {
+	.sidebar_heading h3 {
+		line-height: 28px;
+	}
+	.form_label {
+		height: 40px;
+		line-height: 40px;
+	}
+	.form_bottom_fields {
+		margin-top: 30px;
+	}
+	.form_field {
+		margin-top: 25px;
+	}
+	.form_radio_field input {
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+	}
+	.form_field_title p, .form_dropdown_label label {
+		font-size: 20px;
+		line-height: 20px;
+	}
+	.form_dropdown_label label {
+		width: 230px;
+	}
+	.sidebar {
+		width: 600px;
+		left: -650px;
+	}
+	.about_heading h1 {
+		font-size: 88px;
+		line-height: 98px;
+		margin-top: 15px;
+	}
+	.about_para p {
+		margin-top: 20px;
+		font-size: 22px;
+		line-height: 32px;
+	}
+	.layout_button span {
+		margin-top: 40px;
+		padding: 15px 25px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.sidebar {
+		padding: 20px 25px;
+		width: 510px;
+	}
+	.form_field_title p, .form_dropdown_label label {
+		font-size: 18px;
+		line-height: 18px;
+	}
+	.form_dropdown_label label {
+		width: 200px;
+	}
+	.form_dropdown_menu select {
+		height: 45px;
+	}
+	.about_heading h1 {
+		font-size: 72px;
+		line-height: 82px;
+	}
+	.about_para p {
+		max-width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15px;
+	}
+	.layout_button span {
+		margin-top: 30px;
+		padding: 15px 20px;
+	}
+	.circle_shape,
+	.dot-shape,
+	.cross-shape {
+		display: none;
+	}
+	.call_button {
+		bottom: 40px;
+		right: 50px;
+	}
+	.agent_right_block {
+		bottom: 120px;
+		right: 50px;
+	}
+	.agent_detail_wrapper {
+		bottom: 120px;
+		right: 130px;
+	}
+}
+
+@media (max-width: 991px) {
+	.about_heading h1 {
+		max-width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 60px;
+		line-height: 70px;
+	}
+	.about_para p {
+		max-width: 700px;
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.call_button {
+		right: 40px;
+	}
+	.agent_right_block {
+		right: 40px;
+	}
+	.agent_detail_wrapper {
+		right: 120px;
+		max-width: 300px;
+	}
+	.agent_detail_box {
+		padding: 20px;
+	}
+	.agent_description p {
+		margin-bottom: 20px;
+	}
+	.agent_detail_contact_number a {
+		font-size: 18px;
+	}
+	.sidebar_logo {
+		margin-top: 0px;
+	}
+	.sidebar_heading h3 {
+		font-size: 24px;
+		line-height: 24px;
+	}
+	.form_radio_field input {
+		width: 25px;
+		height: 25px;
+		line-height: 25px;
+		margin-right: 5px;
+	}
+	.right_space {
+		margin-right: 40px;
+	}
+	.form_label {
+		width: 90px;
+	}
+	.form_field {
+		margin-top: 30px;
+	}
+	.form_radio_field {
+		margin-top: 5px;
+	}
+	.form_bottom_fields {
+		margin-top: 40px;
+	}
+	.form_dropdown_menu select {
+		height: 40px;
+		width: 200px;
+	}
+	.form_dropdown_label label {
+		width: 195px;
+	}
+	.sidebar_close_svg svg {
+		width: 24px;
+		height: 24px;
+	}
+	.sidebar {
+		width: 450px;
+		left: -450px;
+	}
+	.agent_detail_box.agent-layout-4:after {
+		top: 165px;
+	}
+	.agent_detail_box.agent-layout-5:after, 
+	.agent_detail_box.agent-layout-6:after {
+		height: 167px;
+	}
+}
+
+@media (max-width: 767px) {
+	.sidebar {
+		padding: 10px 20px;
+		width: 400px;
+		left: -400px;
+	}
+	.sidebar_logo {
+		margin-top: 0px;
+	}
+	.sidebar_heading h3 {
+		font-size: 24px;
+		line-height: 24px;
+	}
+	.header_wrapper {
+		padding: 20px 15px 0 15px;
+	}
+	.site_logo img {
+		max-width: 90%;
+	}
+	.theme_svg {
+		margin-right: 30px;
+	}
+	.theme_svg svg {
+		width: 50px;
+		height: 50px;
+	}
+	.about_title h2 {
+		letter-spacing: 1px;
+	}
+	.about_heading h1 {
+		max-width: 100%;
+		padding: 0 15px;
+		font-size: 44px;
+		line-height: 54px;
+	}
+	.about_para p {
+		max-width: 100%;
+		padding: 0 15px;
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.layout_button span {
+		letter-spacing: 1px;
+		padding: 15px 15px;
+	}
+	.call_button {
+		right: 30px;
+	}
+	.call_button .call_button_svg, 
+	.call_button .call_button_close_svg {
+		width: 55px;
+		height: 55px;
+	}
+	.call_button_svg.call_button_text_show {
+		width: auto;
+		height: auto;
+	}
+	.agent_right_block {
+		right: 30px;
+		bottom: 110px;
+	}
+	.agent_image_content {
+		max-width: 55px;
+	}
+	.agent_detail_wrapper {
+		right: 100px;
+		bottom: 110px;
+		max-width: 280px;
+	}
+	.agent_description p {
+		font-size: 15px;
+	}
+	.agent_detail_call_icon {
+		margin-right: 5px;
+	}
+	.agent_detail_contact_number a {
+		font-size: 16px;
+	}
+	.form_dropdown_menu select {
+		width: 160px;
+		font-size: 16px;
+	}
+	.form_radio_field input {
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+	}
+	.sidebar_close_icon {
+		top: 5px;
+		right: 5px;
+	}
+	.about_bg_image {
+		background-position: 70% center;
+	}
+}
+
+@media (max-width: 500px) {
+	.about_title h2 {
+		font-size: 18px;
+		line-height: 18px;
+	}
+	.about_heading h1 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.about_para p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.layout_button span {
+		padding: 12px 15px;
+		margin-top: 25px;
+		font-size: 16px;
+	}
+	.sidebar_heading h3 {
+		font-size: 22px;
+		line-height: 22px;
+	}
+	.form_field_title p, 
+	.form_dropdown_label label {
+		font-size: 16px;
+		line-height: 16px;
+	}
+	.form_dropdown_label label {
+		width: 175px;
+	}
+	.right_space {
+		margin-right: 30px;
+	}
+	.form_dropdown_menu select {
+		width: 140px;
+	}
+	.sidebar {
+		width: 360px;
+		left: -360px;
+	}
+}
+
+@media (max-width: 450px) {
+	.theme_svg {
+		margin-right: 20px;
+	}
+	.about_heading h1 {
+		font-size: 36px;
+		line-height: 46px;
+	}
+	.layout_button span {
+		padding: 12px 12px;
+	}
+	.call_button {
+		right: 20px;
+		bottom: 30px;
+	} 
+	.agent_right_block {
+		right: 20px;
+		bottom: 100px;
+	}
+	.agent_detail_wrapper {
+		right: 90px;
+		bottom: 100px;
+		max-width: 270px;
+	}
+	.agent_detail_box {
+		padding: 18px 20px 10px 20px;
+	}
+	.sidebar_heading h3 {
+		font-size: 20px;
+		line-height: 20px;
+	}
+	.form_dropdown_menu select {
+		width: 120px;
+	}
+	.custom-select {
+		background-position: 97% center !important;
+		background-size: 16px 16px !important;
+	}
+	.form_dropdown_label label {
+		width: 170px;
+	}
+	.sidebar {
+		width: 330px;
+		left: -330px;
+	}
+}
+
+@media (max-width: 400px) {
+	.site_logo img {
+		max-width: 80%;
+	}
+	.theme_svg {
+		margin-right: 15px;
+	}
+	.theme_svg svg {
+		width: 40px;
+		height: 40px;
+	}
+	.about_heading h1 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.layout_button span {
+		padding: 10px 10px;
+	}
+	.agent_detail_wrapper {
+		max-width: 250px;
+		right: 85px;
+		bottom: 95px;
+	}
+	.agent_image_content {
+		max-width: 50px;
+	}
+	.call_button .call_button_svg, .call_button .call_button_close_svg {
+		width: 50px;
+		height: 50px;
+	}
+	.call_button_svg.call_button_text_show {
+		width: auto;
+		height: auto;
+	}
+	.agent_right_block {
+		bottom: 95px;
+	}
+	.sidebar {
+		width: 100%;
+		left: -400px;
+	}
+}
+
+@media (max-width: 350px) {
+	.site_logo img {
+		max-width: 75%;
+	}
+	.about_heading h1 {
+		font-size: 26px;
+		line-height: 36px;
+	}
+	.layout_button span {
+		font-size: 14px;
+	}
+	.about_title h2 {
+		font-size: 16px;
+		line-height: 16px;
+	}
+	.call_button {
+		bottom: 20px;
+	}
+	.agent_right_block {
+		bottom: 85px;
+	}
+	.agent_detail_wrapper {
+		bottom: 85px;
+		right: 80px;
+		max-width: 225px;
+	}
+	.agent_detail_box {
+		padding: 18px 15px 10px 15px;
+	}
+	.agent_detail_contact_number a {
+		font-size: 15px;
+	}
+	.form_label {
+		width: 80px;
+		height: 35px;
+		line-height: 35px;
+		font-size: 15px;
+	}
+	.form_radio_field input {
+		width: 18px;
+		height: 18px;
+		line-height: 18px;
+	}
+	.form_dropdown_menu select {
+		font-size: 15px;
+		width: 110px;
+		height: 35px;
+	}
+}
